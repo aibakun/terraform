@@ -8,7 +8,9 @@ resource "onelogin_users" "imported_user" {
     invalid_login_attempts = 0
     lastname               = "terraform"
     phone                  = "08012345678"
-    role_ids               = []
+    role_ids               = [
+        747943,
+    ]
     state                  = 0
     status                 = 1
     title                  = null
