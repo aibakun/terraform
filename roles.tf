@@ -6,5 +6,7 @@ resource "onelogin_roles" "imported_role" {
         795681,
     ]
     name   = "terraform_test_role"
-    users  = []
+    users  = [
+        239470748
+    ]
 }
